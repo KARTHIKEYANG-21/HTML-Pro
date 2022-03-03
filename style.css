@@ -33,16 +33,19 @@ h2{
     margin: auto;
     padding-top: 70px;
 }
-.Sample{
+.Sample,
+.old{
 
     color: #000;
-  font-family: Nunito;
   font-size: 12px;
   font-weight: 600;
   line-height: 22px;
-  text-align: justify;
+  
   text-transform: uppercase;
 
+}
+.old{
+  margin-bottom: 12px;
 }
 iframe{
   margin:50px 0;
@@ -56,6 +59,36 @@ section{
   max-width: 680px;
   margin: auto;
 }
+
 .End{
-  text-align: center;
+  margin:auto;
+  
+  max-width: 680px;
+  padding: 20px 15px;
+  background-color: #F1F1F1;
+}
+
+.Then{
+  max-width: 680px;
+  padding: 20px 15px;
+  margin: auto;
+
+}
+
+.List{
+
+  margin: 0 ;
+  padding: 0;
+   list-style-type:none;
+ 
+  
+}
+
+.List li{
+  margin:auto;
+ margin-bottom: 12px;
+   
+}
+.List li:last-of-type{
+  margin-bottom: 0;
 }
